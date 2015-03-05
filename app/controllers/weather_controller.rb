@@ -1,10 +1,9 @@
 class WeatherController < ApplicationController
-  def index
+  def index    
+
   end
 
-  def umbrella
-  end
-
-  def noumbrella
+  def search
+        @zipcode = params[:zipcode]
   end
 end
